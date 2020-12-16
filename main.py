@@ -1,5 +1,7 @@
 # Imports
 import sys
+import csv
+import json
 import pickle
 import twitter
 
@@ -86,5 +88,17 @@ def createTestData(search_string):
         return None
     
 
-search_string=input("Hi there! What are we searching for today ? =>  ")
+search_string=input("Bonjour, Que recherchons nous ? =>  ")
 testData=createTestData(search_string)
+
+# --- Clean Data ---
+
+# --- Classifier avec tous les classificateur ---
+
+# --- Centraliser le résultat ---
+
+# --- Regrouper les résultats ---
+
+# --- Afficher (Dashboard / graphique) ---
+
+# --- Recommencer ---
